@@ -11,7 +11,11 @@ router.get(
     if (!songs) {
       return res.status(404).json({ message: "Songs not found" });
     }
-    const artists = songs.map(item => item.artist) // uso map per inviare solo gli artisti
+    console.log(songs)
+    const artists = songs.map(item => {
+      return {artist:item.artist,image:item.pictureUrl}
+      
+    }) // uso map per inviare solo gli artisti
     res.json(artists);
   }
 );

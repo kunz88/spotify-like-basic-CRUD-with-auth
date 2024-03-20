@@ -5,6 +5,8 @@ import songs from './routes/songs'
 import auth from "./routes/auth";
 import artists from "./routes/artists"
 
+import cors from 'cors';
+
 require("dotenv").config({// configura il path di ricerca del file .env.* utilizzando la variabile ambiantale NODE_ENV
     path: path.join(__dirname,`../.env.${process.env.NODE_ENV}`.trim()),// conviene togliere gli spazi per evitare problemi con la ricerca del file
   });
@@ -12,6 +14,8 @@ require("dotenv").config({// configura il path di ricerca del file .env.* utiliz
 export const saltRounds= Number(process.env.SALT_BCRYPT);// sale per hashing
 
 const app = express() // avvio l'app
+app.use(cors());
+app.options('*', cors());
 export const connection = connect(process.env.MONGODB!)
   .then(() => {
     console.log("Connected to MongoDB");

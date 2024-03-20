@@ -6,7 +6,7 @@ const songs = [
       "title": "Shape of You",
       "text": "The club isn't the best place to find a lover...",
       "duration": 233,
-      "pictureUrl": "https://example.com/shape_of_you.jpg",
+      "pictureUrl": "https://compass-media.vogue.it/photos/641ae5b1ded655b2749bbcc1/2:3/w_2560%2Cc_limit/Ed%2520Sheeran%2520docuserie%2520(2).jpg",
       "musicalGenre": "Pop",
       "artist": "Ed Sheeran"
     },
@@ -14,7 +14,7 @@ const songs = [
       "title": "Bohemian Rhapsody",
       "text": "Is this the real life? Is this just fantasy...",
       "duration": 355,
-      "pictureUrl": "https://example.com/bohemian_rhapsody.jpg",
+      "pictureUrl": "https://i.scdn.co/image/b040846ceba13c3e9c125d68389491094e7f2982",
       "musicalGenre": "Rock",
       "artist": "Queen"
     },
@@ -22,7 +22,7 @@ const songs = [
       "title": "Hey Jude",
       "text": "Hey Jude, don't make it bad...",
       "duration": 431,
-      "pictureUrl": "https://example.com/hey_jude.jpg",
+      "pictureUrl": "https://i.scdn.co/image/ab67616100005174001b450ba15d86b0023c2281",
       "musicalGenre": "Rock",
       "artist": "The Beatles"
     },
@@ -30,7 +30,7 @@ const songs = [
       "title": "Wonderwall",
       "text": "Today is gonna be the day that they're gonna throw it back to you...",
       "duration": 258,
-      "pictureUrl": "https://example.com/wonderwall.jpg",
+      "pictureUrl": "https://i.scdn.co/image/ab67616100005174001b450ba15d86b0023c2281",
       "musicalGenre": "Alternative Rock",
       "artist": "Oasis"
     },
@@ -38,50 +38,11 @@ const songs = [
       "title": "Billie Jean",
       "text": "She was more like a beauty queen from a movie scene...",
       "duration": 293,
-      "pictureUrl": "https://example.com/billie_jean.jpg",
+      "pictureUrl": "https://i.scdn.co/image/ab67616100005174001b450ba15d86b0023c2281",
       "musicalGenre": "Pop",
       "artist": "Michael Jackson"
     },
-    {
-      "title": "Hotel California",
-      "text": "On a dark desert highway, cool wind in my hair...",
-      "duration": 391,
-      "pictureUrl": "https://example.com/hotel_california.jpg",
-      "musicalGenre": "Rock",
-      "artist": "Eagles"
-    },
-    {
-      "title": "Rolling in the Deep",
-      "text": "There's a fire starting in my heart...",
-      "duration": 228,
-      "pictureUrl": "https://example.com/rolling_in_the_deep.jpg",
-      "musicalGenre": "Soul, Blues",
-      "artist": "Adele"
-    },
-    {
-      "title": "Smells Like Teen Spirit",
-      "text": "Load up on guns, bring your friends...",
-      "duration": 301,
-      "pictureUrl": "https://example.com/smells_like_teen_spirit.jpg",
-      "musicalGenre": "Grunge",
-      "artist": "Nirvana"
-    },
-    {
-      "title": "Let It Be",
-      "text": "When I find myself in times of trouble...",
-      "duration": 243,
-      "pictureUrl": "https://example.com/let_it_be.jpg",
-      "musicalGenre": "Rock",
-      "artist": "The Beatles"
-    },
-    {
-      "title": "Thriller",
-      "text": "It's close to midnight and something evil's lurking in the dark...",
-      "duration": 357,
-      "pictureUrl": "https://example.com/thriller.jpg",
-      "musicalGenre": "Pop, Funk, Disco",
-      "artist": "Michael Jackson"
-    }
+
   ];
 
 // funzione che popola il database
