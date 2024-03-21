@@ -6,12 +6,12 @@ const songs = [
       "title": "Shape of You",
       "text": "The club isn't the best place to find a lover...",
       "duration": 233,
-      "pictureUrl": "https://compass-media.vogue.it/photos/641ae5b1ded655b2749bbcc1/2:3/w_2560%2Cc_limit/Ed%2520Sheeran%2520docuserie%2520(2).jpg",
+      "pictureUrl": "https://hips.hearstapps.com/hmg-prod/images/ed-sheeran-GettyImages-494227430_1600.jpg?crop=1xw:1.0xh;center,top&resize=1200:*",
       "musicalGenre": "Pop",
       "artist": "Ed Sheeran"
     },
     {
-      "title": "Bohemian Rhapsody",
+      "title": "Bohemian R.",
       "text": "Is this the real life? Is this just fantasy...",
       "duration": 355,
       "pictureUrl": "https://i.scdn.co/image/b040846ceba13c3e9c125d68389491094e7f2982",
@@ -22,7 +22,7 @@ const songs = [
       "title": "Hey Jude",
       "text": "Hey Jude, don't make it bad...",
       "duration": 431,
-      "pictureUrl": "https://i.scdn.co/image/ab67616100005174001b450ba15d86b0023c2281",
+      "pictureUrl": "https://www.thebeatles.com/sites/default/files/styles/responsive_entity_queue_image_tablet/public/2024-02/thumbnail.jpg?itok=6rvHki_a",
       "musicalGenre": "Rock",
       "artist": "The Beatles"
     },
@@ -30,17 +30,17 @@ const songs = [
       "title": "Wonderwall",
       "text": "Today is gonna be the day that they're gonna throw it back to you...",
       "duration": 258,
-      "pictureUrl": "https://i.scdn.co/image/ab67616100005174001b450ba15d86b0023c2281",
+      "pictureUrl": "https://i.scdn.co/image/ab6761610000e5eba572b3112ccbf374488fed58",
       "musicalGenre": "Alternative Rock",
       "artist": "Oasis"
     },
     {
-      "title": "Billie Jean",
+      "title": "La mi tipa",
       "text": "She was more like a beauty queen from a movie scene...",
       "duration": 293,
       "pictureUrl": "https://i.scdn.co/image/ab67616100005174001b450ba15d86b0023c2281",
-      "musicalGenre": "Pop",
-      "artist": "Michael Jackson"
+      "musicalGenre": "trap",
+      "artist": "Sfera Ebbasta"
     },
 
   ];
