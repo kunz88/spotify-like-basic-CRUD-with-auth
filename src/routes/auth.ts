@@ -30,6 +30,7 @@ app.post( // end poin di signup
     async (req: Request, res: Response) => {
         try {
             const user = new User(matchedData(req));// creo un utente con tutti gli attributi matchati
+            console.log(user)
             user.confirmedUuid = uuidv4()// creo un uuid di conferma da utilizzare nella mai di validazione successivamente
             const userCreated = await user.save();// salvo l'utente nel database
             res.status(201).json({ // invio la risposta con alcuni attributi dell'utente creato

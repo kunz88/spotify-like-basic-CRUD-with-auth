@@ -8,6 +8,7 @@ export const checkValidation = (
 ) => {
   const result:Result = validationResult(req);
   if (!result.isEmpty()) {
+    console.log(result)
     return res.status(400).json(result.array());
   }
   next();

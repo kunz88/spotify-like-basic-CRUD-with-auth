@@ -7,6 +7,7 @@ export type TSong = {
     pictureUrl: string;
     musicalGenre: string;
     artist: string;
+    otherSongs:string[];
 };
 const songSchema = new Schema<TSong>({
     title: { type: String, required: true, unique:true },
@@ -14,6 +15,7 @@ const songSchema = new Schema<TSong>({
     duration: { type: Number, required: true },
     pictureUrl: String,
     musicalGenre: String,
-    artist: { type: String, required: true }
+    artist: { type: String, required: true },
+    otherSongs:Array
 });
 export const Song = model<TSong>("Song", songSchema);

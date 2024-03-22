@@ -14,8 +14,14 @@ require("dotenv").config({// configura il path di ricerca del file .env.* utiliz
 export const saltRounds= Number(process.env.SALT_BCRYPT);// sale per hashing
 
 const app = express() // avvio l'app
-app.use(cors());
+app.use(cors({
+  origin: 'http://localhost:5173',
+  credentials: true
+}));
+
+
 app.options('*', cors());
+
 export const connection = connect(process.env.MONGODB!)
   .then(() => {
     console.log("Connected to MongoDB");
