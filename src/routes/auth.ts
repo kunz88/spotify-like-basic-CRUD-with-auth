@@ -12,7 +12,7 @@ import { saltRounds } from "../app";
 
 app.get("/me", auth, (req: Request, res: Response) => {// in questo endpoint si suppone che l'utente sia già loggato, si controlla tramite 
     // il middleware "auth" che sia il token sia salvato nell'header delle richiesta, così da validare la richiesta http dell'utente e inviare una risposta
-    res.json({ user: res.locals.user});// tramite il middleware si salvano nei locals i dati dell'utente, poi vengono mandati a schermo
+    res.json({ user: res.locals.user.name});// tramite il middleware si salvano nei locals i dati dell'utente, poi vengono mandati a schermo
 });
 
 app.post( // end poin di signup

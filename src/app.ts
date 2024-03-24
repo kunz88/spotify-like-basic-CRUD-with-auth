@@ -15,7 +15,7 @@ export const saltRounds= Number(process.env.SALT_BCRYPT);// sale per hashing
 
 const app = express() // avvio l'app
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: 'http://localhost:5174',
   credentials: true
 }));
 
