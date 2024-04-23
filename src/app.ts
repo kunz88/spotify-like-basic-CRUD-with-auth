@@ -7,6 +7,7 @@ import artists from "./routes/artists"
 
 import cors from 'cors';
 
+
 require("dotenv").config({// configura il path di ricerca del file .env.* utilizzando la variabile ambiantale NODE_ENV
     path: path.join(__dirname,`../.env.${process.env.NODE_ENV}`.trim()),// conviene togliere gli spazi per evitare problemi con la ricerca del file
   });
@@ -15,7 +16,7 @@ export const saltRounds= Number(process.env.SALT_BCRYPT);// sale per hashing
 
 const app = express() // avvio l'app
 app.use(cors({
-  origin: 'http://localhost:5174',
+  origin: 'http://localhost:5173',
   credentials: true
 }));
 
